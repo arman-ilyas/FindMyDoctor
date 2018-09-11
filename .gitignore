@@ -26,3 +26,4 @@
 
 ### reduce size ###
 target/
+.mvn/
