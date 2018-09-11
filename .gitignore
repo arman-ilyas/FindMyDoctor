@@ -26,4 +26,4 @@
 
 ### reduce size ###
 target/
-.mvn/
+.mvn/*
