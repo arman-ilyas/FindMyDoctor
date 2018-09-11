@@ -56,4 +56,5 @@ public class FindMyDoctorApplication implements CommandLineRunner {
     ).forEach(customer -> log.info(customer.toString()));
   }
 
+  
 }
