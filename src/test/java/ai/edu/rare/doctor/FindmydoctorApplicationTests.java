@@ -1,4 +1,4 @@
-package ai.edu.rare.doctor.findmydoctor;
+package ai.edu.rare.doctor;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
