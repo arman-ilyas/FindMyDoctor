@@ -5,7 +5,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+import ai.edu.rare.doctor.dao.DoctorDao;
+import ai.edu.rare.doctor.dao.PatientDao;
 import ai.edu.rare.doctor.dao.UserDao;
+import ai.edu.rare.doctor.model.Doctor;
+import ai.edu.rare.doctor.model.Patient;
 import ai.edu.rare.doctor.model.User;
 
 /**
@@ -13,11 +17,20 @@ import ai.edu.rare.doctor.model.User;
  */
 @Service
 public class UserService {
-
-  @Autowired
-  public UserDao userDao;
+  // TODO: convert to constructor injection later
+  @Autowired public UserDao userDao;
+  @Autowired public PatientDao patientDao;
+  @Autowired public DoctorDao doctorDao;
 
   public List<User> findAllUsers() {
     return userDao.findAllUsers();
+  }
+
+  public List<Patient> findAllPatients() {
+    return patientDao.findAllPatients();
+  }
+
+  public List<Doctor> findAllDoctors() {
+    return doctorDao.findAllDoctors();
   }
 }

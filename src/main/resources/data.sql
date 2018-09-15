@@ -7,11 +7,11 @@ INSERT INTO User (name, id, email, password) VALUES ('Tim', 5, 'tim@gmail.com', 
 INSERT INTO User (name, id, email, password) VALUES ('Kim', 6, 'kim@gmail.com', 'password');
 
 -- Populate first patients
-INSERT INTO Patient (patientId, id, patientDiseaseName) VALUES (1, 1, 'Aagenaes syndrome');
-INSERT INTO Patient (patientId, id, patientDiseaseName) VALUES (2, 2, 'B cell prolymphocytic leukemia');
-INSERT INTO Patient (patientId, id, patientDiseaseName) VALUES (3, 3, 'CADASIL');
+INSERT INTO Patient (id, userId, disease) VALUES (1, 1, 'Aagenaes syndrome');
+INSERT INTO Patient (id, userId, disease) VALUES (2, 2, 'B cell prolymphocytic leukemia');
+INSERT INTO Patient (id, userId, disease) VALUES (3, 3, 'CADASIL');
 
 -- Populate first doctors
-INSERT INTO Doctor (doctorId, id, patientId) VALUES (1, 4, 1);
-INSERT INTO Doctor (doctorId, id, patientId) VALUES (2, 5, 2);
-INSERT INTO Doctor (doctorId, id, patientId) VALUES (3, 6, 3);
+INSERT INTO Doctor (id, userId, patientid) VALUES (1, 4, 1);
+INSERT INTO Doctor (id, userId, patientid) VALUES (2, 5, 2);
+INSERT INTO Doctor (id, userId, patientid) VALUES (3, 6, 3);

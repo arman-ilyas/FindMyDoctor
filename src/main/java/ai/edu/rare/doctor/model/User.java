@@ -16,16 +16,16 @@ import javax.persistence.Table;
 public class User implements Serializable {
   private static final long serialVersionUID = 7610239518520647723L;
 
+  public User() {
+    // empty constructor
+  }
+
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
   private String name;
   private String email;
   private String password;
-
-  public User() {
-    // empty constructor
-  }
 
   public Long getId() {
     return id;
