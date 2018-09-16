@@ -1,5 +1,5 @@
-# findMyDoctor
-Building web app to match doctors with patients with rare diseases
+# FindMyDoctor
+Building web app to match doctors with patients with rare diseases.
 
 
 Demo at:
