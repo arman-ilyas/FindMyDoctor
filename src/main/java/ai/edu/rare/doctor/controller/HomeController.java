@@ -23,4 +23,9 @@ public class HomeController {
   public String doctorPage(Map<String, Object> model) {
     return "doctorPage";
   }
+
+  @RequestMapping("/underconstruction")
+  public String underconstruction() {
+    return "underconstruction";
+  }
 }

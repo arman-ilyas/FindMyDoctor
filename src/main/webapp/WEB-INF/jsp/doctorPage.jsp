@@ -27,7 +27,7 @@
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="/underconstruction">About</a></li>
       </ul>
     </div>
   </div>
@@ -48,9 +48,9 @@
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <label class="form-check-label" for="exampleCheck1">Remember me</label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button onclick="location.href='/underconstruction'" type="submit"  class="btn btn-primary">Submit</button>
     </form>
 
   </div>

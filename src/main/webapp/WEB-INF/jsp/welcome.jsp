@@ -26,7 +26,7 @@
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="/underconstruction">About</a></li>
       </ul>
     </div>
   </div>
@@ -48,7 +48,7 @@
     <%--<h2>Message: ${message}</h2>--%>
     <%--<button type="button" class="btn btn-primary">Primary</button>--%>
       <button type="button" onclick="location.href='/doctorpage'" class="btn btn-primary btn-lg btn-block">I'm doctor. I can help!</button>
-      <button type="button" class="btn btn-secondary btn-lg btn-block">I'm patient with rare disease. I need help!</button>
+      <button type="button" onclick="location.href='/underconstruction'" class="btn btn-secondary btn-lg btn-block">I'm patient with rare disease. I need help!</button>
 
   </div>
 
