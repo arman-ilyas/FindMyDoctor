@@ -85,7 +85,12 @@
 			<artifactId>bootstrap</artifactId>
 			<version>3.3.7</version>
 		</dependency>
-
+		<!--allow how swapping and other features like h2 gui-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
 
 	</dependencies>
 

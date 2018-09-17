@@ -18,4 +18,9 @@ public class HomeController {
     model.put("message", this.message);
     return "welcome";
   }
+
+  @RequestMapping("/doctorpage")
+  public String doctorPage(Map<String, Object> model) {
+    return "doctorPage";
+  }
 }

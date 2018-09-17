@@ -22,4 +22,6 @@ public class DoctorController {
     List<Doctor> allDoctors = userService.findAllDoctors();
     return allDoctors;
   }
+
+
 }
