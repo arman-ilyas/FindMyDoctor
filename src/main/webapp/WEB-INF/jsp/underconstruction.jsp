@@ -1,22 +1,65 @@
+<!DOCTYPE html>
+<html>
+<style>
+	body, html {
+		height: 100%;
+		margin: 0;
+	}
 
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-	<title>TITLE</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-</head>
+	.bgimg {
+		background-image: url('/images/2.jpg');
+		height: 100%;
+		background-position: center;
+		background-size: cover;
+		position: relative;
+		color: white;
+		font-family: "Courier New", Courier, monospace;
+		font-size: 25px;
+	}
+
+	.topleft {
+		position: absolute;
+		top: 0;
+		left: 16px;
+	}
+
+	.bottomleft {
+		position: absolute;
+		bottom: 0;
+		left: 16px;
+	}
+
+	.middle {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	hr {
+		margin: auto;
+		width: 40%;
+	}
+
+	a, a:hover, a:active, a:visited { color: gold; }
+
+</style>
 <body>
-	<div class="main-area-wrapper" style="background-image:url(images/countdown-6-1600x900.jpg);">
-		<div class="main-area center-text" >
-			<div class="display-table">
-				<div class="display-table-cell">
-					<h1 class="title"><b>Comming Soon</b></h1>
-					<p class="desc font-white">Our website is currently under construction. Thank you for your patience.</p>
-				</div><!-- display-table -->
-			</div><!-- display-table-cell -->
-		</div><!-- main-area -->
-	</div><!-- main-area-wrapper -->
 
+<div class="bgimg">
+	<%--<div class="topleft">--%>
+		<%--<p>Logo</p>--%>
+	<%--</div>--%>
+	<div class="middle">
+		<h1>COMING SOON</h1>
+		<%--<p>35 days left</p>--%>
+		<h2><a href="/">Go Home</a></h2>
+	</div>
+	<%--<div class="bottomleft">--%>
+		<%--<p>Some text</p>--%>
+	<%--</div>--%>
+</div>
+
+</body>
 </html>
