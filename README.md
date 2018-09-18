@@ -20,7 +20,7 @@ To run on your local machine, download or clone the project. Then use maven clea
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
 
 ## Demo
 
