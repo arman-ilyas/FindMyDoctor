@@ -15,6 +15,8 @@ To run on your local machine, download or clone the project. Then use maven clea
 * [JavaScript](https://www.javascript.com/) - JavaScript language
 * [JQuery](https://jquery.com/l) - JavaScript library
 * [Bootstrap](http://getbootstrap.com/) - Bootstrap front end framework
+* [HTML](https://en.wikipedia.org/wiki/HTML) - Hypertext Markup Language
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - style sheet language
 
 ## License
 
