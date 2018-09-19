@@ -43,8 +43,8 @@
     </p>
   </div>
   <div class="starter-template">
-      <button type="button" onclick="location.href='/doctorpage'" class="btn btn-primary btn-lg btn-block">I'm doctor. I can help!</button>
-      <button type="button" onclick="location.href='/underconstruction'" class="btn btn-secondary btn-lg btn-block">I'm patient with rare disease. I need help!</button>
+      <button type="button" onclick="location.href='/doctor/login'" class="btn btn-primary btn-lg btn-block">I am a doctor. I can help!</button>
+      <button type="button" onclick="location.href='/underconstruction'" class="btn btn-secondary btn-lg btn-block">I am a patient with rare disease. I need help!</button>
 
   </div>
 

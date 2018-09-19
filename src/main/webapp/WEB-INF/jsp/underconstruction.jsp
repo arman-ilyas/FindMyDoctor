@@ -5,7 +5,7 @@
 		height: 100%;
 		margin: 0;
 	}
-
+  /* put this css here, as this page is temporary*/
 	.bgimg {
 		background-image: url('/images/2.jpg');
 		height: 100%;
@@ -15,18 +15,6 @@
 		color: white;
 		font-family: "Courier New", Courier, monospace;
 		font-size: 25px;
-	}
-
-	.topleft {
-		position: absolute;
-		top: 0;
-		left: 16px;
-	}
-
-	.bottomleft {
-		position: absolute;
-		bottom: 0;
-		left: 16px;
 	}
 
 	.middle {
@@ -48,17 +36,10 @@
 <body>
 
 <div class="bgimg">
-	<%--<div class="topleft">--%>
-		<%--<p>Logo</p>--%>
-	<%--</div>--%>
 	<div class="middle">
 		<h1>COMING SOON</h1>
-		<%--<p>35 days left</p>--%>
 		<h2><a href="/">Go Home</a></h2>
 	</div>
-	<%--<div class="bottomleft">--%>
-		<%--<p>Some text</p>--%>
-	<%--</div>--%>
 </div>
 
 </body>

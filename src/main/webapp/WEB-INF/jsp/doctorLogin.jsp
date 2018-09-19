@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Access the bootstrap Css like this,
    Spring boot will handle the resource mapping automcatically -->
-  <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
 
   <!--
 	<spring:url value="/css/main.css" var="springCss" />
 	<link href="${springCss}" rel="stylesheet" />
 	 -->
-  <c:url value="/css/main.css" var="jstlCss" />
+  <c:url value="../css/main.css" var="jstlCss" />
   <link href="${jstlCss}" rel="stylesheet" />
 
 
@@ -55,16 +55,12 @@
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
           </div>
-          <button id="submitButton" type=""  class="btn btn-primary">Submit</button>
+          <button id="submitButton" type="button"  class="btn btn-primary">Submit</button>
         </form>
       </div>
       <div id="tab-2" class="tab-content">
         Under development.
       </div>
-      <%--<select id="sessions"></select>--%>
-      <%--<ul id="sessions" class="list-group">--%>
-        <%--<li class="list-group-item">Cras justo odio</li>--%>
-      <%--</ul>--%>
     </div><!-- container -->
   </div>
     <%-- end here--%>
@@ -87,11 +83,10 @@
           var email = $('#exampleInputEmail1').val();
           var password = $('#exampleInputPassword1').val();
           if (email === 'user@gmail.com' && password === 'password') {
-            ai.main.getAjaxPatients();
+            window.location.href = '/doctor/home';
           } else {
             $('#exampleInputEmail1').val("");
             $('#exampleInputPassword1').val("");
-
             alert("Please use user@gmail.com/password combination.");
           }
         }

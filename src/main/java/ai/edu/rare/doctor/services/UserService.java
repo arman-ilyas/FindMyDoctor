@@ -22,15 +22,15 @@ public class UserService {
   @Autowired public PatientDao patientDao;
   @Autowired public DoctorDao doctorDao;
 
-  public List<User> findAllUsers() {
-    return userDao.findAllUsers();
+  public List<User> getAllUsers() {
+    return userDao.getAllUsers();
   }
 
-  public List<Patient> findAllPatients() {
-    return patientDao.findAllPatients();
+  public List<Patient> getAllPatients() {
+    return patientDao.getAllPatients();
   }
 
-  public List<Doctor> findAllDoctors() {
-    return doctorDao.findAllDoctors();
+  public List<Doctor> getAllDoctors() {
+    return doctorDao.getAllDoctors();
   }
 }
