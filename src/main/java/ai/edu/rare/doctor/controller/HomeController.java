@@ -18,4 +18,9 @@ public class HomeController {
   public String underConstruction() {
     return "underconstruction";
   }
+
+  @RequestMapping("/aboutme")
+  public String aboutMe() {
+    return "aboutMe";
+  }
 }

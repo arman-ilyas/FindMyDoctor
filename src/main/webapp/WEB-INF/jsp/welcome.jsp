@@ -25,7 +25,7 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="/underconstruction">About</a></li>
+        <li><a href="/aboutme">About</a></li>
       </ul>
     </div>
   </div>
