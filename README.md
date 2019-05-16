@@ -2,6 +2,11 @@
 
 Web application that helps to match the patients with rare diseases with doctors who can help them.
 
+## Demo
+
+Demo at(under construction):
+http://arman.ninja:8080/
+
 
 ## Getting Started
 
@@ -23,7 +28,3 @@ To run on your local machine, download or clone the project. Then use maven clea
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
 
-## Demo
-
-Demo at(under construction):
-http://arman.ninja:8080/
