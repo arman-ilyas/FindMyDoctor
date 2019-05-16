@@ -1,6 +1,6 @@
 # FindMyDoctor
 
-Web application that helps to match the patients with rare diseases with doctors who can help them.
+Web application that helps to match the patients who has rare diseases with doctors who can help them.
 
 ## Demo
 
