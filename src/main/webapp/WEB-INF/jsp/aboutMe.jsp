@@ -67,7 +67,6 @@
           </div>
         </div>
 
-
         <div class="container-fluid" id="body-container-fluid">
           <div class="container">
             <!---- for body container ---->
@@ -88,10 +87,10 @@
 
                     <div class="address">
                       <ul class="w3-ul w3-small">
-                        <li> <i class="fa fa-calendar-o" aria-hidden="true"></i>  48 Strathmore Ave, Singapore </li>
-                        <li> <i class="fa fa-calendar-o" aria-hidden="true"></i>  arman987@gmail.com </li>
-                        <li> <i class="fa fa-calendar-o" aria-hidden="true"></i>  8619-9816</li>
-                        <li><i class="fa fa-calendar-o" aria-hidden="true"></i> 3+ years of expeirence in Web Application development </li>
+                        <li> <i class="fa fa-map-marker" aria-hidden="true"></i>  48 Strathmore Ave, Singapore </li>
+                        <li> <i class="fa fa-envelope-o" aria-hidden="true"></i>  arman987@gmail.com </li>
+                        <%--<li> <i class="fa fa-calendar-o" aria-hidden="true"></i>  1234-1234</li>--%>
+                        <li><i class="fa fa-info" aria-hidden="true"></i> 3+ years of expeirence in Web Application development </li>
                       </ul>
                       </address>
                     </div>
@@ -102,38 +101,22 @@
                       <li><a href="">Back end </a><span>85%</span></li>
                     </ul>
 
-
                     <div class="socials">
                       <p class="lower-case ">Find me</p>
                       <ul class="list-inline">
-                        <button class="w3-button w3-blue" onclick="location.href='https://github.com/NyghmetElemesov' "><i class="fa fa-github"></i></button>
-                        <button class="w3-button w3-green" onclick="location.href='https://www.linkedin.com/in/armantim/' "><i class="fa fa-linkedin"></i></button>
-                        <button class="w3-button w3-red" onclick="location.href='https://sheberlik.com/' " ><i class="fa fa-wordpress"></i></button>
+                        <button class="w3-button w3-blue" onclick="window.open('https://github.com/NyghmetElemesov')"><i class="fa fa-github"></i></button>
+                        <button class="w3-button w3-green" onclick="window.open('https://www.linkedin.com/in/armantim/')"><i class="fa fa-linkedin"></i></button>
+                        <button class="w3-button w3-red" onclick="window.open('https://sheberlik.com/')" ><i class="fa fa-wordpress"></i></button>
                       </ul>
                     </div>
-
                     <hr>
-                    <p class="lower-case ">  Locate us</p>
+                    <p class="lower-case ">  Locate me</p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8012710426283!2d103.8054053147539!3d1.293722999056404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a322862324b%3A0xd181a47d073fb8a0!2sSingapore+140048!5e0!3m2!1sen!2ssg!4v1537403582817" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <hr>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     <br>
-
                   </div>
-
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
               </div>
             </div>
           </div>

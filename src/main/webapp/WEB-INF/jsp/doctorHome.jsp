@@ -52,7 +52,7 @@
             <!-- SIDEBAR USER TITLE -->
             <div class="profile-usertitle">
               <div class="profile-usertitle-name">
-                Dr. Gregory House
+                Dr. Tim
               </div>
               <div class="profile-usertitle-job">
                 Rare Disease Specialist
@@ -99,6 +99,17 @@
             <ul id="patientList" class="list-group">
               <li class="list-group-item active">List of all patients: </li>
             </ul>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> Fix
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Stop fixing
+              </label>
+              <%--<label class="btn btn-secondary">--%>
+                <%--<input type="radio" name="options" id="option3" autocomplete="off"> Radio--%>
+              <%--</label>--%>
+            </div>
             <span class="badge badge-success">Please note that this app is still under development. Nothing here is final.</span>
           </div> <!-- profile content -->
         </div>
@@ -122,6 +133,7 @@
   $(document).ready(function(){
     // retrieve the list of patients using ajax from our db
     ai.main.getAjaxPatients();
+
 
   })
 
