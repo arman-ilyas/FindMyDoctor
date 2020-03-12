@@ -139,7 +139,7 @@
 <script>
   window.onload = function() {
     // similar behavior as clicking on a link
-    window.location.href = "http://arman.ninja:3000/";
+    window.location.href = "/aboutme";
   }
 </script>
 <script type="text/javascript" src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
