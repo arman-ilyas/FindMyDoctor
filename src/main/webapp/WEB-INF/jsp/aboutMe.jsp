@@ -8,34 +8,7 @@
     Spring boot will handle the resource mapping automcatically -->
   <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
 
-  <!--
-	<spring:url value="/css/main.css" var="springCss" />
-	<link href="${springCss}" rel="stylesheet" />
-	 -->
-  <c:url value="/css/main.css" var="jstlCss"/>
   <link href="${jstlCss}" rel="stylesheet"/>
-
-
-
-  <%--<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">--%>
-  <!---- for moving objects make this first always after boootstrap.css ----->
-
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <!---- Bootstrap.min link local project skeleton ----->
-
-  <link rel="stylesheet" href="css/w3.css">
-  <!--- This is the local w3css extended --->
-
-  <link rel="stylesheet" href="css/animate.css">
-
-  <link rel="stylesheet" href="css/style.css">
-  <!---- my own link local for customizing ----->
-
-  <script src="js/bootstrap.min.js"></script>
-  <!---- Bootstrap js link local for well and modal + panels ----->
-
-  <link rel="icon" href="images/a.png" type="images/water.png" />
-  <!---- Icon link local ----->
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <!-------    font awesome online plug --------------->
@@ -56,7 +29,7 @@
   </div>
 </nav>
 
-<div class="container">
+<div class="container text-center">
   <div class="starter-template">
     <div class="container">
     <%--start here--%>
@@ -81,22 +54,18 @@
                       <li class="list-inline-item">
                         <i class="fa fa-folder-open-o"></i> Full Stack Developer
                       </li>
-
                     </ul>
-                    <p class="card-text">Passioanate about technology and programming languages. Focusing on enterprise's back and front ends.</p>
+                    <p class="card-text">Passionate about technology and programming languages. Focusing on enterprise's back and front ends.</p>
 
                     <div class="address">
                       <ul class="w3-ul w3-small">
-                        <li> <i class="fa fa-map-marker" aria-hidden="true"></i>  48 Strathmore Ave, Singapore </li>
                         <li> <i class="fa fa-envelope-o" aria-hidden="true"></i>  arman987@gmail.com </li>
-                        <%--<li> <i class="fa fa-calendar-o" aria-hidden="true"></i>  1234-1234</li>--%>
-                        <li><i class="fa fa-info" aria-hidden="true"></i> 3+ years of expeirence in Web Application development </li>
+                        <li><i class="fa fa-info" aria-hidden="true"></i> 4.5+ years of experience in Web Application development </li>
                       </ul>
                       </address>
                     </div>
 
                     <ul class="w3-ul w3-small">
-                      <li><a href="" > Design </a> <span>75%</span></li>
                       <li><a href="">Front end </a><span>80%</span></li>
                       <li><a href="">Back end </a><span>85%</span></li>
                     </ul>
@@ -136,14 +105,6 @@
     </div>
   </div>
 </div>
-<script>
-  window.onload = function() {
-    // similar behavior as clicking on a link
-    window.location.href = "/aboutme";
-  }
-</script>
-<script type="text/javascript" src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
