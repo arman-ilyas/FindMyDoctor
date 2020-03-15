@@ -9,12 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/doctor")
 public class DoctorController {
-
   @RequestMapping("/login")
   public String doctorLogin() {
     return "doctorLogin";
   }
-
   @RequestMapping("/home")
   public String doctorHome() {
     return "doctorHome";

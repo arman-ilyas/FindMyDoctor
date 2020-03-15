@@ -8,17 +8,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class HomeController {
-
   @RequestMapping("/")
   public String welcome() {
     return "welcome";
   }
-
   @RequestMapping("/underconstruction")
   public String underConstruction() {
     return "underconstruction";
   }
-
   @RequestMapping("/aboutme")
   public String aboutMe() {
     return "aboutMe";

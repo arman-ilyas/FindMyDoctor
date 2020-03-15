@@ -13,8 +13,6 @@ import ai.edu.rare.doctor.model.Patient;
  */
 @Repository
 public interface PatientDao extends JpaRepository<Patient, Long> {
-
   @Query(value = "select * from Patient", nativeQuery = true)
   List<Patient> getAllPatients();
-
 }

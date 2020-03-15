@@ -10,7 +10,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class FindMyDoctorApplication extends SpringBootServletInitializer {
 
   private static final Logger log = LoggerFactory.getLogger(FindMyDoctorApplication.class);
-
   public static void main(String[] args) {
     SpringApplication.run(FindMyDoctorApplication.class, args);
   }

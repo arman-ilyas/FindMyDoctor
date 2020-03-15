@@ -13,8 +13,6 @@ import ai.edu.rare.doctor.model.User;
  */
 @Repository
 public interface UserDao extends JpaRepository<User, Long> {
-
   @Query(value = "select * from User", nativeQuery = true)
   List<User> getAllUsers();
-
 }
