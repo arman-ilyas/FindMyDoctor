@@ -18,19 +18,19 @@ import ai.edu.rare.doctor.model.User;
 @Service
 public class UserService {
   // TODO: convert to constructor injection later
-  @Autowired public UserDao userDao;
-  @Autowired public PatientDao patientDao;
-  @Autowired public DoctorDao doctorDao;
+//  @Autowired public UserDao userDao;
+//  @Autowired public PatientDao patientDao;
+//  @Autowired public DoctorDao doctorDao;
 
-  public List<User> getAllUsers() {
-    return userDao.getAllUsers();
-  }
-
-  public List<Patient> getAllPatients() {
-    return patientDao.getAllPatients();
-  }
-
-  public List<Doctor> getAllDoctors() {
-    return doctorDao.getAllDoctors();
-  }
+//  public List<User> getAllUsers() {
+//    return userDao.getAllUsers();
+//  }
+//
+//  public List<Patient> getAllPatients() {
+//    return patientDao.getAllPatients();
+//  }
+//
+//  public List<Doctor> getAllDoctors() {
+//    return doctorDao.getAllDoctors();
+//  }
 }

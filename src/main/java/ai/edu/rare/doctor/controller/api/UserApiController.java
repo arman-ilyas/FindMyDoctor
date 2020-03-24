@@ -20,7 +20,7 @@ public class UserApiController {
 
   @RequestMapping("/list")
   public List<User> getAllUsers() {
-    List<User> allUsers = userService.getAllUsers();
-    return allUsers;
+//    List<User> allUsers = userService.getAllUsers();
+    return null;
   }
 }

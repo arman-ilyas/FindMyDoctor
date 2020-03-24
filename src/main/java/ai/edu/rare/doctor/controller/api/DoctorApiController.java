@@ -20,8 +20,8 @@ public class DoctorApiController {
 
   @RequestMapping("/list")
   public List<Doctor> getAllDoctors() {
-    List<Doctor> allDoctors = userService.getAllDoctors();
-    return allDoctors;
+//    List<Doctor> allDoctors = userService.getAllDoctors();
+    return null;
   }
 
 }

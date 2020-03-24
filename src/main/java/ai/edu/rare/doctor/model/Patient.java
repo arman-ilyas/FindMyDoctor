@@ -2,18 +2,9 @@ package ai.edu.rare.doctor.model;
 
 import java.io.Serializable;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
 /**
  * Created by Tim Arman on 15/9/18.
  */
-@Entity
-@Table(name = "Patient")
 public class Patient implements Serializable {
   private static final long serialVersionUID = 3168690699573834923L;
 
@@ -21,10 +12,7 @@ public class Patient implements Serializable {
     // empty constructor
   }
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
-  @Column(name = "userid")
   private Long userId;
   private String disease;
 

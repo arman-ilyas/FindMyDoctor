@@ -48,10 +48,10 @@
     <!--      <artifactId>h2</artifactId>-->
     <!--    </dependency>-->
 
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-jpa</artifactId>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.springframework.boot</groupId>-->
+<!--      <artifactId>spring-boot-starter-data-jpa</artifactId>-->
+<!--    </dependency>-->
 
     <!-- Tomcat embedded container-->
     <dependency>
@@ -101,12 +101,6 @@
     <dependency>
       <groupId>de.flapdoodle.embed</groupId>
       <artifactId>de.flapdoodle.embed.mongo</artifactId>
-    </dependency>
-    <!--		Spring Factory Bean for Embedded MongoDB-->
-    <dependency>
-      <groupId>cz.jirutka.spring</groupId>
-      <artifactId>embedmongo-spring</artifactId>
-      <version>RELEASE</version>
     </dependency>
 
   </dependencies>
