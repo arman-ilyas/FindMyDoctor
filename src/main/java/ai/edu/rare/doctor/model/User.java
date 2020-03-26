@@ -1,13 +1,13 @@
 package ai.edu.rare.doctor.model;
 
 import java.io.Serializable;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 
 /**
  * Created by Tim Arman on 15/9/18.
  */
-//@Entity
-//@Table(name = "User")
+@Document(collection = "users")
 public class User implements Serializable {
   private static final long serialVersionUID = 7610239518520647723L;
 
