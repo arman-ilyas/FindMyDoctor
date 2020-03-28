@@ -3,8 +3,6 @@ package ai.edu.rare.doctor.dao;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
 import ai.edu.rare.doctor.model.User;
 
 /**
@@ -12,5 +10,4 @@ import ai.edu.rare.doctor.model.User;
  */
 @Repository
 public interface UserDao extends MongoRepository<User, Long> {
-  List<User> getAllUsers();
 }
