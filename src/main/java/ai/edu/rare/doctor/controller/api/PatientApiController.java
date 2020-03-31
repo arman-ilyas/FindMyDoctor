@@ -21,7 +21,6 @@ public class PatientApiController {
 
   @GetMapping("/list")
   public List<Patient> getAllPatients() {
-//    List<Patient> allPatients = userService.getAllPatients();
     return null;
   }
 }
