@@ -3,7 +3,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html lang="en">
 <head>
-
     <!-- Access the bootstrap Css like this,
       Spring boot will handle the resource mapping automcatically -->
     <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
@@ -39,7 +38,6 @@
                         <!---- for nav container ----->
                     </div>
                 </div>
-
                 <div class="container-fluid" id="body-container-fluid">
                     <div class="container">
                         <!---- for body container ---->
@@ -56,7 +54,7 @@
                                             </li>
                                         </ul>
                                         <p class="card-text">Passionate about technology and programming languages.
-                                            Focusing on enterprise's back and front ends.</p>
+                                            Focusing on enterprise level projects, working on back and front ends.</p>
 
                                         <div class="address">
                                             <ul class="w3-ul w3-small">
