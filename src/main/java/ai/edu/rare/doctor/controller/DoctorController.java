@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by Tim Arman on 19/9/18.
  */
 @Controller
-@RequestMapping("/doctor")
+//@RequestMapping("/doctor")
 public class DoctorController {
-  @RequestMapping("/login")
+  @RequestMapping("/doctorLogin")
   public String doctorLogin() {
     return "doctorLogin";
   }

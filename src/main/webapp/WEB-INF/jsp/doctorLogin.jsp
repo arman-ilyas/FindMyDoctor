@@ -13,15 +13,15 @@
 	<spring:url value="/css/main.css" var="springCss" />
 	<link href="${springCss}" rel="stylesheet" />
 	 -->
-  <c:url value="../css/main.css" var="jstlCss" />
+  <c:url value="../css/main.css" var="jstlCss" /  
   <link href="${jstlCss}" rel="stylesheet" />
 
 
 </head>
 <body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <nav class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
@@ -37,32 +37,29 @@
 
 <div class="container">
   <%-- start here--%>
-  <div class="starter-template">
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
 
-    <div class="container">
-      <ul class="tabs">
-        <li class="tab-link current" data-tab="tab-1">Login</li>
-        <li class="tab-link" data-tab="tab-2">Register</li>
-      </ul>
-      <div id="tab-1" class="tab-content current">
+        <!-- Icon -->
+        <div class="fadeIn first">
+          <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+        </div>
+
+        <!-- Login Form -->
         <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">To access use this credentials <br /> user@gmail.com and password</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <button id="submitButton" type="button"  class="btn btn-primary">Submit</button>
+          <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+          <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+          <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
+
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+          <a class="underlineHover" href="#">Forgot Password?</a>
+        </div>
+
       </div>
-      <div id="tab-2" class="tab-content">
-        Under development.
-      </div>
-    </div><!-- container -->
-  </div>
+    </div>
     <%-- end here--%>
 </div>
 
