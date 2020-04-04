@@ -13,7 +13,7 @@
 	<spring:url value="/css/main.css" var="springCss" />
 	<link href="${springCss}" rel="stylesheet" />
 	 -->
-  <c:url value="../css/main.css" var="jstlCss" /  
+  <c:url value="../css/main.css" var="jstlCss" />
   <link href="${jstlCss}" rel="stylesheet" />
 
 
