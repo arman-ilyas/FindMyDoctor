@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class DoctorController {
   @RequestMapping("/doctorLogin")
   public String doctorLogin() {
-    return "doctorLogin";
+    return "login";
   }
   @RequestMapping("/home")
   public String doctorHome() {
