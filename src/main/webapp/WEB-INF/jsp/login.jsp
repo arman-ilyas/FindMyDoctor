@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Access the bootstrap Css like this,
    Spring boot will handle the resource mapping automcatically -->
-  <link rel="stylesheet" type="text/css" href="../webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+<%--  <link rel="stylesheet" type="text/css" href="../webjars/bootstrap/3.3.7/css/bootstrap.min.css" />--%>
 
 <%--  <!----%>
 <%--	<spring:url value="/css/main.css" var="springCss" />--%>
@@ -35,7 +35,7 @@
   </div>
 </nav>
 
-<div class="container">
+<div>
   <%-- start here--%>
     <div class="wrapper fadeInDown">
       <div id="formContent">
@@ -53,10 +53,10 @@
           <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
 
-        <!-- Remind Passowrd -->
-        <div id="formFooter">
-          <a class="underlineHover" href="#">Forgot Password?</a>
-        </div>
+<%--        <!-- Remind Passowrd -->--%>
+<%--        <div id="formFooter">--%>
+<%--          <a class="underlineHover" href="#">Forgot Password?</a>--%>
+<%--        </div>--%>
 
       </div>
     </div>
